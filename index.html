@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Sneaker</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <input type="checkbox" id="close" />
+        <label for="close"></label>
+        <div class="menu">
+          <div class="menuitems">
+            <a href="#">Collections</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+        <a href="#">
+          <img src="./images/logo.svg" alt="sneakers logo" />
+        </a>
+        <div class="right">
+          <button class="cart-button"><span></span></button>
+          <button class="user-button"></button>
+        </div>
+      </header>
+
+      <div class="content">
+      <section class="carousel">
+        <div class="cart">
+          <h3>Cart</h3>
+          <div class="cart-items">
+            <article class="empty">
+              <p>Your cart is empty.</p>
+            </article>            
+          </div>
+          <article class="checkout">
+            <button>Checkout</button>
+          </article>
+        </div>
+        <div class="background"></div>
+        <div class="modal">
+          <button class="closeModal">
+            <svg width="14" height="15" xmlns="http://www.w3.org/2000/svg"><path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" fill="#FFFFFF" fill-rule="evenodd"/></svg>
+          </button>
+        <div class="carousel-items">
+          <div class="images">
+            <img src="./images/image-product-1.jpg" alt="product 1" />
+            <img src="./images/image-product-2.jpg" alt="product 2" />
+            <img src="./images/image-product-3.jpg" alt="product 3" />
+            <img src="./images/image-product-4.jpg" alt="product 4" />
+          </div>
+        </div>
+        <div class="thumbnails">
+          <a class="active" href="images/image-product-1.jpg"><img data-id="1" src="./images/image-product-1-thumbnail.jpg" alt="product 1 thumbnail" /></a>
+          <a href="images/image-product-2.jpg"><img data-id="2" src="./images/image-product-2-thumbnail.jpg" alt="product 2 thumbnail" /></a>
+          <a href="images/image-product-3.jpg"><img data-id="3" src="./images/image-product-3-thumbnail.jpg" alt="product 3 thumbnail" /></a>
+          <a href="images/image-product-4.jpg"><img data-id="4" src="./images/image-product-4-thumbnail.jpg" alt="product 4 thumbnail" /></a>
+        </div>
+        <div class="buttons">
+          <button class="left-button"><svg width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg></button>
+          <button class="right-button"><svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/></svg></button>
+        </div>
+        </div>
+      </section>
+
+      <section class="product-info">
+        <h3>Sneaker Company</h3>
+        <h2>Fall Limited Edition Sneakers</h2>
+
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+
+        <div class="price">
+          <strong>$125.00</strong>
+          <span>50%</span>
+          <p>$250.00</p>
+        </div>
+
+        <div class="quantity">
+        <div class="spinner">
+          <button class="decrease">-</button>
+          <input value="1" class="spinner-input" type="text" value="0" />
+          <button class="increase">+</button>
+        </div>
+        <button class="add-cart"><span></span>Add to cart</button>
+      </div>
+      </section>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/bercoder">bercoder</a>.
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
