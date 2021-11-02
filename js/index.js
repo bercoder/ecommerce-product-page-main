@@ -124,7 +124,7 @@ function slideLeft() {
   } else {
     actualSlide = carousel.length - 1
   }
-  carousel[actualSlide].scrollIntoView({ block: "center", behavior: "smooth" })  
+  // carousel[actualSlide].scrollIntoView({ block: "center", behavior: "smooth" })  
   changeThumbnail()
 }
 
@@ -134,7 +134,8 @@ function slideRight() {
   } else {
     actualSlide = 0
   }
-  carousel[actualSlide].scrollIntoView({ block: "center", behavior: "smooth" })
+
+  // carousel[actualSlide].scrollIntoView({ block: "center", behavior: "smooth" })
   changeThumbnail()
 }
 

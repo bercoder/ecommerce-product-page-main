@@ -22,6 +22,7 @@ body {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
+  scroll-behavior: smooth
 }
 
 h2 {
